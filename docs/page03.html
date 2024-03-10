@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .text {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .align {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="align">
+        <div>
+            <label for="username">Username &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</label>
+            <input type="text" placeholder="Enter username" id="uname" onfocusout="validateUname()"><br><br>
+            <label for="password">Password &nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="password" placeholder="Enter password" id="pwd" onfocusout="validatePassword()"><br><br>
+            <label for="password">Confirm Password &nbsp;</label>
+            <input type="password" placeholder="Re-Enter password" id="cpwd" onfocusout="validateCpassword()"><br><br>
+            <label for="email-id">Email-id
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter email" id="email" onfocusout="validateEmail()"><br><br>
+            <label for="mobile">Mobile Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter mobile" id="mobile" onfocusout="validateMobile()"><br><br>
+            <label for="dob">Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="date" placeholder="Enter Date of Birth"><br><br>
+            <label
+                for="address">Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="textarea" placeholder="Enter Address"><br><br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="male" value="male" name="gender">Male</input>
+            <input type="radio" id="female" value="female" name="gender">Female</input><br><br>
+            <button type="submit"
+                style="background-color:coral; border: none; font-size: 30px; color: white">&nbsp;Register&nbsp;</button>
+        </div>
+
+
+    </form>
+</body>
+
+</html>
